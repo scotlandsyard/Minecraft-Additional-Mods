@@ -47,6 +47,11 @@ Write-Host "You can find the mods folder in your Minecraft instance directory." 
 Write-Host ""
 Write-Host "Opening URLs in your default web browser..." -ForegroundColor Cyan
 
+# Create the target folder if it doesn't exist
+    if (-not (Test-Path $targetFolder)) {
+        New-Item -ItemType Directory -Path $targetFolder | Out-Null
+    }
+
 foreach ($url in $urls2) {
     Start-Process $url
 }
