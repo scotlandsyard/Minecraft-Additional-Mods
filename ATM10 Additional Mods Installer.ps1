@@ -12,7 +12,7 @@
 #>
  
 # ---------- PointBlank Main Mod Install ----------
-$downloadUrl = "https://github.com/scotlandsyard/Minecraft/blob/main/pointblank-neoforge-1.21-1.9.6.jar" # This is the URL for the PointBlank mod file located on my Google Drive
+$downloadUrl = "https://github.com/scotlandsyard/Minecraft-Additional-Mods/blob/main/pointblank-neoforge-1.21-1.9.6.jar" # This is the URL for the PointBlank mod file located on my Google Drive
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition # Get the directory of the script
 $targetFolder = Join-Path $scriptDir "mods" # Define the target folder where the file will be saved
 $outputFile = Join-Path $targetFolder "pointblank-neoforge-1.21-1.9.6.jar" # Define the output file path (Change filename as needed)
@@ -34,7 +34,7 @@ if (Test-Path $outputFile) {
 
 
 # ---------- PointBlank Doom Expansion Install ----------
-$downloadUrl = "https://github.com/scotlandsyard/Minecraft/blob/main/doom-ext%20v1.3.5.zip" # This is the URL for the Doom Expansion mod located on my Google Drive
+$downloadUrl = "https://github.com/scotlandsyard/Minecraft-Additional-Mods/blob/main/doom-ext%20v1.3.5.zip" # This is the URL for the Doom Expansion mod located on my Google Drive
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition # Get the directory of the script
 $targetFolder = Join-Path $scriptDir "pointblank" # Define the target folder where the file will be saved
 $outputFile = Join-Path $targetFolder "doom-ext v1.3.5.zip" # Define the output file path (Change filename as needed)
@@ -55,7 +55,7 @@ if (Test-Path $outputFile) {
 }
 
 # ---------- Copy Cats+ Install ----------
-$downloadUrl = "https://github.com/scotlandsyard/Minecraft/blob/main/copycats-3.0.2%2Bmc.1.21.1-neoforge.jar" # This is the URL for the PointBlank mod file located on my Google Drive
+$downloadUrl = "https://github.com/scotlandsyard/Minecraft-Additional-Mods/blob/main/copycats-3.0.2%2Bmc.1.21.1-neoforge.jar" # This is the URL for the PointBlank mod file located on my Google Drive
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition # Get the directory of the script
 $targetFolder = Join-Path $scriptDir "mods" # Define the target folder where the file will be saved
 $outputFile = Join-Path $targetFolder "copycats-3.0.2+mc.1.21.1-neoforge.jar" # Define the output file path (Change filename as needed)
@@ -76,7 +76,7 @@ if (Test-Path $outputFile) {
 }
 
 # ---------- Create Better Motors Install ----------
-$downloadUrl = "https://github.com/scotlandsyard/Minecraft/blob/main/create_better_motors-3.1.4.jar" # This is the URL for the PointBlank mod file located on my Google Drive
+$downloadUrl = "https://github.com/scotlandsyard/Minecraft-Additional-Mods/blob/main/create_better_motors-3.1.4.jar" # This is the URL for the PointBlank mod file located on my Google Drive
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition # Get the directory of the script
 $targetFolder = Join-Path $scriptDir "mods" # Define the target folder where the file will be saved
 $outputFile = Join-Path $targetFolder "create_better_motors-3.1.4.jar" # Define the output file path (Change filename as needed)
@@ -98,7 +98,7 @@ if (Test-Path $outputFile) {
 
 
 # ---------- Design n Decor Install ----------
-$downloadUrl = "https://github.com/scotlandsyard/Minecraft/blob/main/Design-n-Decor-1.21.1-2.1.0.jar" # This is the URL for the PointBlank mod file located on my Google Drive
+$downloadUrl = "https://github.com/scotlandsyard/Minecraft-Additional-Mods/blob/main/Design-n-Decor-1.21.1-2.1.0.jar" # This is the URL for the PointBlank mod file located on my Google Drive
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition # Get the directory of the script
 $targetFolder = Join-Path $scriptDir "mods" # Define the target folder where the file will be saved
 $outputFile = Join-Path $targetFolder "Design-n-Decor-1.21.1-2.1.0.jar" # Define the output file path (Change filename as needed)
@@ -121,7 +121,7 @@ if (Test-Path $outputFile) {
 
 
 # ---------- Mech Trowel Install ----------
-$downloadUrl = "https://github.com/scotlandsyard/Minecraft/blob/main/mechtrowel-1.1.1.jar" # This is the URL for the PointBlank mod file located on my Google Drive
+$downloadUrl = "https://github.com/scotlandsyard/Minecraft-Additional-Mods/blob/main/mechtrowel-1.1.1.jar" # This is the URL for the PointBlank mod file located on my Google Drive
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition # Get the directory of the script
 $targetFolder = Join-Path $scriptDir "mods" # Define the target folder where the file will be saved
 $outputFile = Join-Path $targetFolder "mechtrowel-1.1.1.jar" # Define the output file path (Change filename as needed)
@@ -144,7 +144,7 @@ if (Test-Path $outputFile) {
 
 
 # ---------- Schematic Energistics Install ----------
-$downloadUrl = "https://github.com/scotlandsyard/Minecraft/blob/main/schematicenergistics-1.21.1-1.2.0.jar" # This is the URL for the PointBlank mod file located on my Google Drive
+$downloadUrl = "https://github.com/scotlandsyard/Minecraft-Additional-Mods/blob/main/schematicenergistics-1.21.1-1.2.0.jar" # This is the URL for the PointBlank mod file located on my Google Drive
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition # Get the directory of the script
 $targetFolder = Join-Path $scriptDir "mods" # Define the target folder where the file will be saved
 $outputFile = Join-Path $targetFolder "schematicenergistics-1.21.1-1.2.0.jar" # Define the output file path (Change filename as needed)
@@ -166,7 +166,7 @@ if (Test-Path $outputFile) {
 
 
 # ---------- The Factory Must Grow Install ----------
-$downloadUrl = "https://github.com/scotlandsyard/Minecraft/blob/main/tfmg-1.0.2f.jar" # This is the URL for the PointBlank mod file located on my Google Drive
+$downloadUrl = "https://github.com/scotlandsyard/Minecraft-Additional-Mods/blob/main/tfmg-1.0.2f.jar" # This is the URL for the PointBlank mod file located on my Google Drive
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition # Get the directory of the script
 $targetFolder = Join-Path $scriptDir "mods" # Define the target folder where the file will be saved
 $outputFile = Join-Path $targetFolder "tfmg-1.0.2f.jar" # Define the output file path (Change filename as needed)
@@ -190,5 +190,4 @@ if (Test-Path $outputFile) {
 Write-Host "All downloads are complete." -ForegroundColor Green
 Write-Host "Press any key to exit..."
 [void][System.Console]::ReadKey($true)
-
 
