@@ -17,7 +17,6 @@
 $urls1 = @(
     "https://www.curseforge.com/minecraft/mc-mods/create-industry/download/6821588",
     "https://www.curseforge.com/minecraft/mc-mods/schematic-energistics/download/6795457",
-    "https://www.curseforge.com/minecraft/mc-mods/schematic-energistics/download/6795457",
     "https://www.curseforge.com/minecraft/mc-mods/create-design-n-decor/download/6824615",
     "https://www.curseforge.com/minecraft/mc-mods/mech-trowel/download/6820203",
     "https://www.curseforge.com/minecraft/mc-mods/copycats/download/6650033",
